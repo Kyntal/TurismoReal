@@ -1,0 +1,47 @@
+h1{
+    font-size: 70px;
+    color: white;
+}
+.contenedor{
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.site-header {
+    background: url(../img/header.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+.navegacion a {
+    color:white;
+    font-size:20px ;
+    margin-right: 30px;
+}
+
+.navegacion a:hover{
+    color: blue;
+}
+
+
+.icono {  width: 220px; height: 180px; }
+
+/* 
+Formulario
+*/
+
+form {
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.muestra {  width: 220px; height: 180px; }
